@@ -2,8 +2,6 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage me"]
-body:
-  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
@@ -16,7 +14,6 @@ body:
         required: true
   - type: checkboxes
     attributes:
-      label: Is there a StackOverflow question about this issue?
       description: Please search [StackOverflow](https://stackoverflow.com/questions/tagged/android-jetpack) if an issue with an answer already exists for the bug you encountered.
       options:
       - label: I have searched StackOverflow
